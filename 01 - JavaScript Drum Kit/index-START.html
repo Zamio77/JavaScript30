@@ -70,6 +70,7 @@ function playSound(e) {
     audio.play(); // Play the audio file
     key.classList.add('playing'); // see css class playing / adds this class to the element
   }
+
 function removeTransition(e) {
   if(e.propertyName !== 'transform') return; // skip it if it's not a transform
   this.classList.remove('playing');
